@@ -750,4 +750,16 @@ input[type="text"] {
   opacity: 0;
 }
 
+div.botonsito{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  
+
+}
+
+.bookMe {
+  display: flex;
+  align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
