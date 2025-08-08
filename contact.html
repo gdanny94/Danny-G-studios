@@ -105,7 +105,10 @@
             </div>
           </div>
           <div class="row">
-            <div>
+            <form
+              action="https://formsubmit.co/gdanny.garcia@gmail.com"
+              method="POST"
+            >
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -113,6 +116,8 @@
                       type="text"
                       class="form-control"
                       placeholder="Name"
+                      name="name"
+                      required
                     />
                   </div>
                 </div>
@@ -122,18 +127,21 @@
                       type="text"
                       class="form-control"
                       placeholder="Email"
+                      name="email"
+                      required
                     />
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
                     <textarea
-                      name=""
+                      name="message"
                       class="form-control"
                       id=""
                       cols="30"
                       rows="7"
                       placeholder="Message"
+                      required
                     ></textarea>
                   </div>
                 </div>
@@ -147,7 +155,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
@@ -156,7 +164,7 @@
         <div id="footer">
           <div class="container">
             <div class="row">
-               <div class="col-md-6">
+              <div class="col-md-6">
                 <p>
                   Copyright 2025<a href="#"> Momento.</a>. All Rights Reserved.
                   <br />Brought to life by
